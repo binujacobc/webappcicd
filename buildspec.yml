@@ -12,7 +12,7 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - cd $CODEBUILD_SRC_DIR/$FRONTEND_DIR
-      - npm ci
+      - npm ci --include=dev
 
   build:
     commands:
