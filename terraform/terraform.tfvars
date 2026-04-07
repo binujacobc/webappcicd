@@ -1,0 +1,5 @@
+aws_region   = "eu-west-2"
+project_name = "binu-uk-frontend"
+environment  = "production"
+domain_name    = "binu.uk"
+hosted_zone_id = "Z03233472I7CYFANJLA2X"
