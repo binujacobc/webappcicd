@@ -9,6 +9,8 @@ dist/
 *.tfstate
 *.tfstate.*
 *.tfplan
+*.tfvars
+!*.tfvars.example
 .terraform.lock.hcl
 
 # OS
